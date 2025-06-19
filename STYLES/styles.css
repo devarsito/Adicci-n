@@ -11,10 +11,12 @@
         
 /*- PROPIEDADES -*/
 
-nav{
-    position: absolute;
-    top:45px;
-    right:25px
+nav {
+    position: relative; /* Cambiado de absolute a relative */
+    top: 0; /* Remover top para que se posicione correctamente */
+    right: 0; /* Remover right para que se posicione correctamente */
+    background-color: rgba(51, 52, 70, 0.8); /* Color de fondo para visibilidad */
+    padding: 15px; /* Espaciado interno */
 }
 
 nav li{
@@ -29,8 +31,11 @@ header{
     padding: 60px;
 }
 
-footer{
-  padding: 30px 0px 30px 40px;
+footer {
+    padding: 30px 0px;
+    background-color: rgb(51, 52, 70); /* Color de fondo para visibilidad */
+    color: white; /* Color del texto */
+    text-align: center; /* Centrar el texto */
 }
 
 video{
@@ -39,8 +44,9 @@ video{
 
 /*- CLASES -*/
 
-.COLOR1{
+.COLOR1 {
     background-color: rgb(51, 52, 70);
+    color: white; /* Asegúrate de que el texto sea visible */
 }
 
 .COLOR2{
